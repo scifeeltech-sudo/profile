@@ -24,7 +24,7 @@ const socialIcons: Record<string, React.ComponentType<{ size?: number }>> = {
 };
 
 const socialOverrides: Record<string, string> = {
-  website: "https://calendly.com/selanet/30m",
+  website: "https://calendly.com/selanet/30min",
 };
 
 
