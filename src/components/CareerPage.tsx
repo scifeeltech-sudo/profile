@@ -7,10 +7,9 @@ import {
   FiLinkedin,
   FiMail,
   FiTwitter,
-  FiGlobe,
+  FiVideo,
   FiArrowRight,
   FiBriefcase,
-  FiMapPin,
 } from "react-icons/fi";
 import { profile, interviews, education } from "@/lib/data";
 import { useLang } from "@/contexts/LanguageContext";
@@ -21,7 +20,11 @@ const socialIcons: Record<string, React.ComponentType<{ size?: number }>> = {
   linkedin: FiLinkedin,
   email: FiMail,
   twitter: FiTwitter,
-  website: FiGlobe,
+  website: FiVideo,
+};
+
+const socialOverrides: Record<string, string> = {
+  website: "https://calendly.com/selanet/30m",
 };
 
 
@@ -46,7 +49,12 @@ export default function CareerPage() {
       {/* ── Profile Header ── */}
       <section className="relative mb-8">
         {/* Banner */}
-        <div className="h-48 md:h-56 rounded-b-2xl relative overflow-hidden">
+        <a
+          href="https://selanet.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block h-48 md:h-56 rounded-b-2xl relative overflow-hidden cursor-pointer"
+        >
           <Image
             src="/images/banner.jpg"
             alt="SelaNet.ai Banner"
@@ -54,7 +62,7 @@ export default function CareerPage() {
             className="object-cover object-bottom"
             priority
           />
-        </div>
+        </a>
 
         {/* Profile card overlapping banner */}
         <div className="relative -mt-16 px-4 md:px-8">
@@ -87,8 +95,10 @@ export default function CareerPage() {
                     <FiBriefcase size={14} />
                     {profile.currentRole} @ {profile.company}
                   </span>
-                  <span className="flex items-center gap-1.5 text-base">
-                    🇰🇷 🇺🇸 🇸🇬
+                  <span className="flex items-center gap-1.5">
+                    <Image src="/images/flags/kr.png" alt="Korea" width={20} height={14} className="rounded-sm" />
+                    <Image src="/images/flags/us.png" alt="USA" width={20} height={14} className="rounded-sm" />
+                    <Image src="/images/flags/sg.png" alt="Singapore" width={20} height={14} className="rounded-sm" />
                   </span>
                 </div>
               </div>
@@ -98,7 +108,7 @@ export default function CareerPage() {
                 {socialEntries.map(([key, url]) => {
                   const Icon = socialIcons[key];
                   if (!Icon) return null;
-                  const href = key === "email" ? `mailto:${url}` : url;
+                  const href = socialOverrides[key] ?? (key === "email" ? `mailto:${url}` : url);
                   return (
                     <a
                       key={key}
@@ -139,11 +149,15 @@ export default function CareerPage() {
               <div key={i} className="relative flex gap-4 group">
                 {/* Timeline line */}
                 <div className="flex flex-col items-center">
-                  <div className="w-10 h-10 rounded-full bg-muted border border-border flex items-center justify-center shrink-0 group-hover:border-accent transition-colors">
-                    <FiBriefcase
-                      size={16}
-                      className="text-muted-foreground group-hover:text-accent transition-colors"
-                    />
+                  <div className="w-10 h-10 rounded-full bg-muted border border-border flex items-center justify-center shrink-0 group-hover:border-accent transition-colors overflow-hidden">
+                    {item.company === "SelaNet.ai" ? (
+                      <Image src="/images/logos/selanet.png" alt="SelaNet.ai" width={40} height={40} className="object-cover" />
+                    ) : (
+                      <FiBriefcase
+                        size={16}
+                        className="text-muted-foreground group-hover:text-accent transition-colors"
+                      />
+                    )}
                   </div>
                   {i < timeline.length - 1 && (
                     <div className="w-px flex-1 bg-border min-h-[24px]" />
