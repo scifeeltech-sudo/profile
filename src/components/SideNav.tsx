@@ -54,7 +54,7 @@ export default function SideNav() {
                 : "text-muted-foreground hover:text-foreground hover:bg-muted"
             }`}
           >
-            Interview
+            Story
           </Link>
         </div>
 

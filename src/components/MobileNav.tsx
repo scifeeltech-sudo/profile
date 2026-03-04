@@ -81,7 +81,7 @@ export default function MobileNav() {
                 : "text-muted-foreground hover:text-foreground hover:bg-muted"
             }`}
           >
-            Interview
+            Story
           </Link>
 
           {/* Interview sub-sections */}
