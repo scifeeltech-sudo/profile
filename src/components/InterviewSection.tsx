@@ -25,8 +25,6 @@ export default function InterviewSection({
 }: InterviewSectionProps) {
   const { lang } = useLang();
   const displayTitle = lang === "en" ? titleEn : title;
-  const subtitle = lang === "en" && title !== titleEn ? title : lang === "ko" && title !== titleEn ? titleEn : null;
-
   return (
     <section id={id} className="py-16 md:py-24">
       <ScrollAnimation>
@@ -34,9 +32,6 @@ export default function InterviewSection({
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">
             {displayTitle}
           </h2>
-          {subtitle && (
-            <p className="text-sm text-muted-foreground mt-1">{subtitle}</p>
-          )}
           <div className="w-12 h-1 bg-accent mt-4 rounded-full" />
         </div>
       </ScrollAnimation>

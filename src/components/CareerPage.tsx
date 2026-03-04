@@ -300,14 +300,14 @@ export default function CareerPage() {
           <p className="text-muted-foreground mb-6">
             {lang === "en"
               ? "Read the full interview to learn about my journey, vision, and technical perspective."
-              : "인터뷰 전문을 통해 커리어 여정, 비전, 기술 관점을 확인하세요."}
+              : "스토리 전문을 통해 커리어 여정, 비전, 기술 관점을 확인하세요."}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link
               href="/interview"
               className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full font-medium hover:bg-accent-light transition-colors"
             >
-              {lang === "en" ? "Read Full Interview" : "인터뷰 전문 보기"}
+              {lang === "en" ? "Read Full Story" : "스토리 전문 보기"}
               <FiArrowRight size={16} />
             </Link>
             {profile.social.email && (
