@@ -151,7 +151,9 @@ export default function CareerPage() {
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-muted border border-border flex items-center justify-center shrink-0 group-hover:border-accent transition-colors overflow-hidden">
                     {item.company === "SelaNet.ai" ? (
-                      <Image src="/images/logos/selanet.png" alt="SelaNet.ai" width={40} height={40} className="object-cover" />
+                      <a href="https://selanet.ai" target="_blank" rel="noopener noreferrer">
+                        <Image src="/images/logos/selanet.png" alt="SelaNet.ai" width={40} height={40} className="object-cover" />
+                      </a>
                     ) : (
                       <FiBriefcase
                         size={16}
@@ -170,7 +172,13 @@ export default function CareerPage() {
                     {item.role}
                   </h3>
                   <p className="text-sm text-accent font-medium">
-                    {item.company}
+                    {item.company === "SelaNet.ai" ? (
+                      <a href="https://selanet.ai" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                        {item.company}
+                      </a>
+                    ) : (
+                      item.company
+                    )}
                   </p>
                   {item.period && (
                     <p className="text-xs text-muted-foreground mt-0.5">
