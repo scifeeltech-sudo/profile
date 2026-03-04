@@ -151,7 +151,7 @@ export default function CareerPage() {
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-muted border border-border flex items-center justify-center shrink-0 group-hover:border-accent transition-colors overflow-hidden">
                     {item.company === "SelaNet.ai" ? (
-                      <Image src="/images/logos/selanet.jpg" alt="SelaNet.ai" width={40} height={40} className="object-cover" />
+                      <Image src="/images/logos/selanet.png" alt="SelaNet.ai" width={40} height={40} className="object-cover" />
                     ) : (
                       <FiBriefcase
                         size={16}
