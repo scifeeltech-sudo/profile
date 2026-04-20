@@ -34,8 +34,8 @@ export default function ContactCTA() {
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto text-lg">
             {lang === "en"
-              ? "Building at the intersection of AI agents, blockchain, and DePIN — I'd love to connect with builders, partners, and investors."
-              : "AI 에이전트 인프라, 블록체인, DePIN — 교차점에서 함께 만들어갈 빌더, 파트너, 투자자분들을 환영합니다."}
+              ? "Building at the intersection of finance and technology — I'd love to connect with fintechs, builders, partners, and investors looking to enter the Korean market."
+              : "금융과 기술의 교차점에서 — 한국 시장 진출을 고려하는 핀테크, 빌더, 파트너, 투자자분들과의 대화를 환영합니다."}
           </p>
 
           {profile.social.email && (
