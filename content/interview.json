@@ -109,28 +109,28 @@
           "answerEn": "I started at HP as an enterprise technology solution PM, learning the fundamentals of B2B go-to-market. At Ilshin Ventures, I managed an ESG venture fund and invested in early-stage tech companies. At KEB Hana Bank, I worked in investment banking and built a network across Korea's institutional finance ecosystem. At Mirae Asset, I managed a $1.5 billion global infrastructure hedge fund, which cemented my conviction that infrastructure is the foundation of every market. Then I founded BC Labs and have been building fintech and infrastructure products for over seven years.",
           "timeline": [
             {
-              "period": "",
-              "role": "Enterprise Solution Product Manager",
+              "period": "2006–2009",
+              "role": "Product Marketing Manager",
               "company": "Hewlett-Packard (HP)",
-              "highlight": "대기업 대상 엔터프라이즈 기술 솔루션 판매. B2B 시장 개척, 채널 파트너십 구축, 글로벌 본사 구조 하에서의 현지 실행 전략을 배움. 다국적 기업 안에서 본사의 사고방식과 현지 시장 현실 사이를 번역하는 법을 일찍 체득.",
-              "highlightEn": "Sold enterprise technology solutions to large Korean corporates. Learned B2B go-to-market fundamentals — product positioning, channel partnerships, and adapting global HQ strategy for local execution. Learned early how to translate between headquarters thinking and local market reality."
+              "highlight": "B2B 시장 개척, 채널 파트너십 구축, 글로벌 본사 전략의 현지 실행. 신제품 'BladeSystem' 런칭 TF를 리드해 2007–2008년 시장점유율 52%로 IBM·Dell·SUN을 제치고 1위 달성, Best Collaboration Award 수상.",
+              "highlightEn": "B2B go-to-market, channel partnerships, and local execution of global HQ strategy. Led the task force for the 'BladeSystem' product launch — ranked #1 in market share (52%, 2007–2008) ahead of IBM, Dell, and SUN, and received the Best Collaboration Award."
             },
             {
-              "period": "",
-              "role": "Venture Capitalist — ESG Fund",
+              "period": "2010–2012",
+              "role": "Investment Manager — Venture & PE",
               "company": "Ilshin Ventures",
-              "highlight": "ESG 특화 벤처 펀드 운용 — 초기 단계 기술 기업의 소싱, 밸류에이션, 투자 집행. 수백 개의 비즈니스 모델을 검토하며 유닛 이코노믹스와 기업가치를 빠르게 판별하는 투자 감각을 키움. 딜 소싱부터 투자 의사결정까지 사업개발·투자 전 과정을 경험.",
-              "highlightEn": "Managed an ESG-focused venture fund — sourcing, valuing, and investing in early-stage technology companies. Reviewed hundreds of business models, sharpening the ability to assess unit economics and company valuation fast. Ran the full cycle from deal sourcing to investment decision — the core muscle of business development and investing."
+              "highlight": "초기 단계 기술 기업의 소싱, 밸류에이션, 투자 집행. 투자위 승인 7건을 확보하고, 3개 경쟁 컨소시엄을 제치고 $8M 딜을 주도했으며, 글로벌 PE와 함께 $10M 컨소시엄 딜을 이끔. 딜 소싱부터 투자 의사결정까지 사업개발·투자 전 과정을 경험.",
+              "highlightEn": "Sourced, valued, and invested in early-stage technology companies. Won 7 investment-committee approvals, led an $8M deal against three competing consortiums, and led a $10M consortium deal alongside a global PE fund. Ran the full cycle from deal sourcing to investment decision — the core muscle of business development and investing."
             },
             {
-              "period": "",
-              "role": "Investment Banker",
+              "period": "2013–2016",
+              "role": "Investment Banker — IBD, M&A Finance",
               "company": "KEB Hana Bank",
-              "highlight": "기업금융 딜 구조화 및 실행 — M&A 자문, 밸류에이션, 부채 구조화. 다양한 금융기관·기업 이해관계자와의 협상을 주도하며 복잡한 딜을 처음부터 끝까지 성사. M&A와 밸류에이션, 딜 협상 역량을 기관 금융 현장에서 체득한 시기.",
-              "highlightEn": "Structured and executed corporate finance deals — M&A advisory, valuation, and debt structuring. Led negotiations across banks, corporates, and institutional stakeholders, taking complex deals from origination to close. This is where M&A, valuation, and deal-negotiation became second nature — the foundation of how I approach business development today."
+              "highlight": "기업금융 딜 구조화 및 실행 — M&A 자문, 밸류에이션, 부채 구조화. M&A 파이낸스 딜 5건, 총 $357M을 소싱부터 클로징까지 성사. 다양한 금융기관·기업 이해관계자와의 협상을 주도하며 M&A·밸류에이션·딜 협상 역량을 기관 금융 현장에서 체득.",
+              "highlightEn": "Structured and executed corporate finance deals — M&A advisory, valuation, and debt structuring. Closed 5 M&A finance deals totaling $357M from origination to close. Led negotiations across banks, corporates, and institutional stakeholders — where M&A, valuation, and deal-negotiation became second nature, the foundation of how I approach business development today."
             },
             {
-              "period": "",
+              "period": "2016–2018",
               "role": "Infrastructure Hedge Fund Manager",
               "company": "Mirae Asset Financial Group",
               "highlight": "AUM $1.5B 글로벌 인프라 헤지펀드 운용. 아시아태평양, 유럽, 미주 전역의 교통·에너지·통신·디지털 인프라 자산을 발굴·밸류에이션·투자. 크로스보더 딜 구조화와 글로벌 카운터파티와의 영어 협상을 주도하며 대규모 투자 의사결정을 실행. 사업개발을 자본시장 규모에서 운영한 경험.",
