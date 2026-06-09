@@ -88,17 +88,6 @@ export default function CareerPage() {
                 <p className="text-lg text-muted-foreground mt-1">
                   {profile.tagline}
                 </p>
-                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-2 text-sm text-muted-foreground">
-                  <span className="flex items-center gap-1">
-                    <FiBriefcase size={14} />
-                    {profile.currentRole} @ {profile.company}
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <Image src="/images/flags/kr.png" alt="Korea" width={20} height={14} className="rounded-sm" />
-                    <Image src="/images/flags/us.png" alt="USA" width={20} height={14} className="rounded-sm" />
-                    <Image src="/images/flags/sg.png" alt="Singapore" width={20} height={14} className="rounded-sm" />
-                  </span>
-                </div>
               </div>
 
               {/* Social links */}
