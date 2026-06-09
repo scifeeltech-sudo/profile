@@ -14,13 +14,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Profile | Building Trusted Web Infrastructure for AI Agents",
+  title: "Stephen Hong | Business Development & Partnerships",
   description:
-    "CEO & Co-Founder at SelaNet.ai — Building trusted web infrastructure for AI agents. Background in AI Agent Infrastructure, Browser Automation, Blockchain & DePIN, and Finance.",
+    "Business development and partnerships leader building new ventures at the intersection of finance and technology. Background in M&A, investment, valuation, strategic partnerships, and 0→1 venture building.",
   openGraph: {
-    title: "Profile | Building Trusted Web Infrastructure for AI Agents",
+    title: "Stephen Hong | Business Development & Partnerships",
     description:
-      "CEO & Co-Founder at SelaNet.ai — Building trusted web infrastructure for AI agents.",
+      "Building new ventures at the intersection of finance and technology — business development, strategic partnerships, M&A, investment, and valuation.",
     type: "website",
   },
 };
