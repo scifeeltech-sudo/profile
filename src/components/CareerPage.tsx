@@ -49,20 +49,18 @@ export default function CareerPage() {
       {/* ── Profile Header ── */}
       <section className="relative mb-8">
         {/* Banner */}
-        <a
-          href="https://selanet.ai"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block h-48 md:h-56 rounded-b-2xl relative overflow-hidden cursor-pointer"
-        >
-          <Image
-            src="/images/banner.jpg"
-            alt="SelaNet.ai Banner"
-            fill
-            className="object-cover object-bottom"
-            priority
-          />
-        </a>
+        <div className="h-48 md:h-56 rounded-b-2xl relative overflow-hidden bg-gradient-to-br from-accent via-accent-light to-foreground/80 flex items-center justify-center">
+          <div className="text-center px-6">
+            <p className="text-2xl md:text-4xl font-bold text-white tracking-tight">
+              Passion for Innovation
+            </p>
+            <p className="text-sm md:text-base text-white/80 mt-2 max-w-xl">
+              {lang === "en"
+                ? "Building what doesn't exist yet — across finance, technology, and borders."
+                : "아직 존재하지 않는 것을 만듭니다 — 금융과 기술, 그리고 국경을 넘어."}
+            </p>
+          </div>
+        </div>
 
         {/* Profile card overlapping banner */}
         <div className="relative -mt-16 px-4 md:px-8">
@@ -150,9 +148,9 @@ export default function CareerPage() {
                 {/* Timeline line */}
                 <div className="flex flex-col items-center">
                   <div className="w-10 h-10 rounded-full bg-muted border border-border flex items-center justify-center shrink-0 group-hover:border-accent transition-colors overflow-hidden">
-                    {item.company === "SelaNet.ai" ? (
+                    {item.company === "BC Labs" ? (
                       <a href="https://selanet.ai" target="_blank" rel="noopener noreferrer">
-                        <Image src="/images/logos/selanet.png" alt="SelaNet.ai" width={40} height={40} className="object-cover" />
+                        <Image src="/images/logos/selanet.png" alt="BC Labs — SelaNet.ai" width={40} height={40} className="object-cover" />
                       </a>
                     ) : (
                       <FiBriefcase
@@ -174,7 +172,7 @@ export default function CareerPage() {
                         {item.role}
                       </h3>
                       <p className="text-sm text-accent font-medium">
-                        {item.company === "SelaNet.ai" ? (
+                        {item.company === "BC Labs" ? (
                           <a href="https://selanet.ai" target="_blank" rel="noopener noreferrer" className="hover:underline">
                             {item.company}
                           </a>
@@ -183,7 +181,7 @@ export default function CareerPage() {
                         )}
                       </p>
                     </div>
-                    {item.company === "SelaNet.ai" && (
+                    {item.company === "BC Labs" && (
                       <div className="flex items-center gap-2">
                         <a href="https://x.com/selanetai" target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center rounded-full bg-foreground/10 border border-foreground/20 text-foreground hover:bg-accent hover:text-white hover:border-accent transition-colors" aria-label="X (Twitter)">
                           <FiTwitter size={14} />

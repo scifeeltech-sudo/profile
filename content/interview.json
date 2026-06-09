@@ -140,17 +140,9 @@
               "period": "2018–Present",
               "role": "Founder & CEO",
               "company": "BC Labs",
-              "tags": ["Fintech", "Blockchain", "Infrastructure", "AI"],
-              "highlight": "7년 넘게 핀테크 및 인프라 제품을 제로에서 구축하는 소프트웨어 개발 회사 운영. 법인 설립, 금융 라이선스, 정부 협업, 투자 유치, 팀 빌딩까지 한국에서 기술 기반 금융 사업을 처음부터 운영. Coinvestor(크립토 헤지펀드 마켓플레이스)를 4년간 운영 후, 현재 SelaNet.ai 프로젝트 진행 중. 한국에서 기술 기반 금융 사업을 처음부터 세우고 운영하는 데 필요한 모든 것에 대한 연속적인 마스터클래스.",
-              "highlightEn": "Founded and running a software development company for over seven years, building fintech and infrastructure products from the ground up. Company formation, financial licensing, government engagement, fundraising, and team building — operating a technology-driven financial business in Korea from scratch. Ran Coinvestor (crypto hedge fund marketplace) for four years, now building SelaNet.ai. A continuous masterclass in what it takes to launch and operate a technology-driven financial business in Korea from the ground up."
-            },
-            {
-              "period": "2025–Present",
-              "role": "CEO & Co-Founder",
-              "company": "SelaNet.ai",
-              "tags": ["AI Agent", "Browser Automation", "DePIN", "Trust Infrastructure"],
-              "highlight": "AI 에이전트를 위한 신뢰 웹 인프라 구축. 에이전트 인증, 신뢰된 브라우저 세션, 분산 브라우저 네트워크(DePIN)를 핵심 축으로 에이전트가 웹의 1등 시민이 되는 세상을 만들어가는 중.",
-              "highlightEn": "Building trusted web infrastructure for AI agents. Creating a world where agents become first-class citizens of the web, with agent authentication, trusted browser sessions, and a decentralized browser network (DePIN) as core pillars."
+              "tags": ["Fintech", "Blockchain", "Infrastructure", "AI Agent", "DePIN", "Trust Infrastructure"],
+              "highlight": "7년 넘게 핀테크 및 인프라 제품을 제로에서 구축하는 소프트웨어 개발 회사 운영. 법인 설립, 금융 라이선스, 정부 협업, 투자 유치, 팀 빌딩까지 한국에서 기술 기반 금융 사업을 처음부터 운영. Coinvestor(크립토 헤지펀드 마켓플레이스)를 4년간 운영했고, 현재는 BC Labs에서 SelaNet.ai 프로젝트를 이끌고 있습니다 — AI 에이전트를 위한 신뢰 웹 인프라를 구축하며, 에이전트 인증, 신뢰된 브라우저 세션, 분산 브라우저 네트워크(DePIN)를 핵심 축으로 에이전트가 웹의 1등 시민이 되는 세상을 만들어가는 중. 한국에서 기술 기반 금융 사업을 처음부터 세우고 운영하는 데 필요한 모든 것에 대한 연속적인 마스터클래스.",
+              "highlightEn": "Founded and running a software development company for over seven years, building fintech and infrastructure products from the ground up. Company formation, financial licensing, government engagement, fundraising, and team building — operating a technology-driven financial business in Korea from scratch. Ran Coinvestor (crypto hedge fund marketplace) for four years, and now leading the SelaNet.ai project at BC Labs — building trusted web infrastructure for AI agents, with agent authentication, trusted browser sessions, and a decentralized browser network (DePIN) as core pillars, creating a world where agents become first-class citizens of the web. A continuous masterclass in what it takes to launch and operate a technology-driven financial business in Korea from the ground up."
             }
           ]
         },
